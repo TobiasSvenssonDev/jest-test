@@ -24,7 +24,7 @@ test('The stack should be empty in the beginning', async () => {
 	expect(stack).toEqual("n/a");
 });
 
-describe('Clicking "Poppa stacken!', async () =>
+describe('Clicking "Poppa stacken!', () =>
 	it('should open an alert', async () => {
 		let push = await driver.findElement(By.id('push'));
 		await push.click();
@@ -34,7 +34,6 @@ describe('Clicking "Poppa stacken!', async () =>
 		let pop = await driver.findElement(By.id('pop'));
 		await pop.click();
 		await alert.accept();
-
 	}));
 
 
