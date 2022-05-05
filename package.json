@@ -1,0 +1,22 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "description": "testing with jest",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiasSvenssonDev/jest-test.git"
+  },
+  "author": "Tobias Svensson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TobiasSvenssonDev/jest-test/issues"
+  },
+  "homepage": "https://github.com/TobiasSvenssonDev/jest-test#readme"
+}
