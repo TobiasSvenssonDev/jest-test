@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/TobiasSvenssonDev/jest-test/issues"
   },
-  "homepage": "https://github.com/TobiasSvenssonDev/jest-test#readme"
+  "homepage": "https://github.com/TobiasSvenssonDev/jest-test#readme",
+  "dependencies": {
+    "underscore": "^1.13.3"
+  }
 }
