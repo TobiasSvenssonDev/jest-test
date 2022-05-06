@@ -18,5 +18,5 @@ exports.peek = function () {
 }
 
 exports.stackLength = function () {
-    return stack.length;
+    return stack;
 }
